@@ -1,0 +1,89 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Addition"
+            android:padding="10dp" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Subtraction"
+            android:padding="10dp" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Scalar multiplication"
+            android:padding="10dp" />
+
+        <item
+            android:id="@+id/nav_notifications"
+            android:title="Matrix multiplication"
+            android:padding="30dp" />
+
+        <item
+            android:id="@+id/nav_help"
+            android:title="Help"
+            android:padding="10dp" />
+    </group>
+
+
+
+    <item android:title="Profile">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Logout"
+                    android:padding="10dp" />
+
+
+            </group>
+
+        </menu>
+
+    </item>
+
+
+
+    <item android:title="Comunicate">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_contactus"
+                    android:title="Contact us"
+
+                    android:padding="10dp" />
+
+                <item
+                    android:id="@+id/nav_rate"
+                    android:title="Rate us"
+
+                    android:padding="10dp" />
+
+                <item
+                    android:id="@+id/nav_about"
+                    android:title="About us"
+
+                    android:padding="10dp" />
+
+
+            </group>
+
+        </menu>
+
+    </item>
+
+
+</menu>
+
+
